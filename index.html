@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="Image/logo.jpg" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- navbar -->
+     <nav>
+        <div class="logo">
+            <h1>My Portofolio</h1>
+        </div>
+        <ul class="menu" style="list-style-type: none"  >
+            <li><a href="https://github.com/Fatihalakram55" target="_blank">
+            <i class="fa-brands fa-github"></i>Github</a></li>
+            <li><a href="https://www.instagram.com/al_akram.55/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>Instagram</a></li>
+            <li><a href="https://wa.link/78rsx1" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
+        </ul>
+     </nav>
+
+    <!-- Hero -->
+      <section id="hero">
+        <div class="kiri">
+            <h1>Hello, my name is Fatih Al-Akram👋</h1>
+            <p>I'm a beginner web developer learning the basics of HTML, CSS, and JavaScript. I'm passionate about building responsive websites and constantly improving through hands-on practice and small projects.</p>
+            <div class="button">
+                <div>
+                    <a href="#skill"><i class="fa-solid fa-code"></i>Skill</a>
+                </div>
+                <div>
+                    <a href="#testimoni"><i class="fa-solid fa-pencil"></i>Testimoni</a>
+                </div>
+                <div>
+                    <a href="#contact"><i class="fa-solid fa-phone"></i>Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="kanan">
+            <img src="Image/profile.jpg">
+        </div>
+      </section>
+      
+
+    <!-- Skills -->
+      <section id="skill">
+        <h2>My Skills</h2>
+        <p>And this is something I can do, maybe I'm not very good at it, but I keep trying to hone and improve it.</p>
+        <div class="skill-container">
+            <div class="skill">
+                <img src="Image/html.png" alt="logo html">
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <img src="Image/css.png" alt="logo css">
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <img src="Image/java.png" alt="logo JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <img src="Image/tailwind.png" alt="logo tailwind">
+                <p>Tailwind</p>
+            </div>
+            <div class="skill">
+                <img src="Image/laravel.png" alt="logo laravel">
+                <p>Laravel</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni -->
+      <section id="testimoni">
+        <h2>Testimoni</h2>
+        <p>Here are some testimonials from my friends and teachers about me, I hope this can be a reference for you.</p>
+        <div class="card-container">
+            <div class="profile-card">
+                <img src="Image/foto testi.jpg" alt="image profile">
+                <p class="nama">Fatih Al-Akram</p>
+                <p class="pekerjaan">Student at SMP Al-Andalus Jonggol</p>
+                <p class="testimoni">Alhammdulillah I have completed my junior high school education at SMPIT Al-Andalus Jonggol.</p>
+            </div>
+            <div class="profile-card">
+                <img src="Image/foto testi.jpg" alt="image profile">
+                <p class="nama">Fatih Al-Akram</p>
+                <p class="pekerjaan">Student at SMK IDN Boarnding School Pamijahan</p>
+                <p class="testimoni">For now, I am in the process of completing my vocational school education at SMK IDN Boarnding School Pamijahan.</p>
+            </div>
+            <div class="profile-card">
+                <img src="Image/foto testi.jpg" alt="image profile">
+                <p class="nama">Fatih Al-Akram</p>
+                <p class="pekerjaan">Web Developer</p>
+                <p class="testimoni">I am currently learning web development at my vocational school, focusing on HTML, CSS, and JavaScript. I am eager to create responsive and interactive websites.</p>
+            </div>
+        </div>
+      </section>
+      
+    <!-- Contact -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-kanan">
+                    <h3 class="contact-title"><i class="fa-solid fa-envelope"></i> This is my Email</h3>
+                    <p>fatihalakram55@gmail.com</p>
+                    <h3 class="contact-title"><i class="fa-solid fa-phone"></i> My phone number</h3>
+                    <p>+62 859-3000-6657</p>
+                    <h3 class="contact-title"><i class="fa-solid fa-location-dot"></i> My location</h3>
+                    <p>Kemang, Bogor, Indonesia</p>
+            </div>
+            <div class="contact-kiri">
+                <form action="">
+                    <label for="nama">Your Name :</label><br>    
+                    <input type="text" id="nama" name="nama" placeholder="Full name" required><br><br>
+                    <label for="nama">Your Email :</label><br>    
+                    <input type="text" id="nama" name="nama" placeholder="your@email.com" required><br><br>
+                    <label for="catatan">Description :</label><br>
+                    <textarea name="catatan" id="catatan" rows="8" cols="60" placeholder="Write your message"></textarea><br><br>
+                    <button type="submit">Send Message Now (via Email or Whatsapp)</button>
+                </form>
+            </div>
+      </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Fatih Al-Akram. All rights reserved.</p>
+        <p>Created with <i class="fa-solid fa-heart"></i> by Fatih Al-Akram</p>
+</body>
+</html>
