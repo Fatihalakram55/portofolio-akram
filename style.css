@@ -5,6 +5,14 @@ html {
 }
 
 /* responsive */
+@media only screen and (max-width: 937px) {
+    .button {
+        flex-direction: column;
+        margin: 2rem;
+        gap: 1rem;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -55,7 +63,7 @@ html {
     }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 421px) {
     .menu {
         flex-direction: column;
         gap: 20px;
